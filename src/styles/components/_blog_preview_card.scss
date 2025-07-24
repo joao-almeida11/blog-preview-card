@@ -10,6 +10,8 @@
   border-radius: 20px;
   border: 1px solid utils.$color-gray-950;
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+
+  color: utils.$color-gray-950;
 }
 
 .blog-preview-card--figure {
@@ -52,6 +54,7 @@
 }
 .blog-preview-card--details--description {
   margin: 0;
+  color: utils.$color-gray-500;
 }
 
 .blog-preview-card--author {

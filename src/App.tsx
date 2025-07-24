@@ -1,4 +1,4 @@
-// import Attribution from "./components/Attribution";
+import Attribution from "./components/Attribution";
 import BlogPreviewCard from "./components/BlogPreviewCard/BlogPreviewCard";
 
 function App() {
@@ -7,9 +7,9 @@ function App() {
       <main>
         <BlogPreviewCard />
       </main>
-      {/* <footer>
+      <footer>
         <Attribution />
-      </footer> */}
+      </footer>
     </>
   );
 }
