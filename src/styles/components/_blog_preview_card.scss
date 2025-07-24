@@ -32,8 +32,9 @@
 }
 
 .blog-preview-card--details--tag-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: utils.$spacing-150;
   padding: 0;
   margin: 0;
