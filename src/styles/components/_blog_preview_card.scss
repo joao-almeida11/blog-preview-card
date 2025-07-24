@@ -51,6 +51,11 @@
 }
 .blog-preview-card--details--title {
   margin: 0;
+
+  &:hover {
+    color: utils.$color-yellow;
+    cursor: pointer;
+  }
 }
 .blog-preview-card--details--description {
   margin: 0;
